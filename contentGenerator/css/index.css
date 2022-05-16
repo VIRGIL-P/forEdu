@@ -1,0 +1,31 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.title, .generate, .button {
+    border: 2px solid silver;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+}
+
+.button, .generate {
+    cursor: pointer;
+}
+
+.title, .generate {
+    width: calc(100% - 4px);
+}
+
+.button {
+    width: calc(50% - 4px);
+}
+
+.content {
+    width: 200px;
+    min-height: 200px;
+    margin-top: 20px;
+    background-color: gray;
+}
