@@ -1,12 +1,13 @@
 .wrapper {
-    background-color: aqua;
+    background-color: #0057B7;
     position: relative;
     width: 200px;
+    border: 1px solid black;
     height: 200px;
 }
 
 .circle {
-    background-color: brown;
+    background-color: black;
     position: absolute;
     border-radius: 50%;
     width: 50px;
@@ -30,6 +31,10 @@
 .button {
     width: calc(50% - 4px);
     margin: 0;
-    border: 2px solid seagreen;
+    border: 2px solid black;
     text-align: center;
+}
+
+span{
+    background-color: #FFDD00;
 }
